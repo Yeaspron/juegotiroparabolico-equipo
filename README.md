@@ -34,7 +34,7 @@ Cada integrante utiliza su propia cuenta. Diego contribuye desde un fork y enví
 | Responsable | Funcionalidad | Estado |
 |---|---|---|
 | Yerik | Aumentar la velocidad del proyectil y de los balones | Implementación reportada por el equipo; falta registrar su detalle y validación |
-| Diego | Mantener la partida activa y reposicionar los balones que salen de la ventana | Pendiente de confirmar implementación e integración |
+| Diego | Mantener la partida activa y reposicionar los balones que salen de la ventana | Implementado en feat7infinite; pendiente de integrar a main.  |
 
 ### Velocidad: contribución de Yerik
 
@@ -125,18 +125,19 @@ Los siguientes resultados deben completarse después de ejecutar las pruebas. No
 
 | Prueba | Procedimiento | Resultado esperado | Resultado observado |
 |---|---|---|---|
-| Inicio | Ejecutar `python cannon.py` | Se abre la ventana sin errores | Pendiente |
-| Disparo | Hacer clic en diferentes posiciones | El proyectil se lanza y cambia su trayectoria | Pendiente |
-| Velocidad del proyectil | Comparar el original y la versión modificada con condiciones equivalentes | El proyectil se mueve más rápido | Pendiente |
+| Inicio | Ejecutar `python cannon.py` | Se abre la ventana sin errores | Hecho |
+| Disparo | Hacer clic en diferentes posiciones | El proyectil se lanza y cambia su trayectoria | Hecho |
+| Velocidad del proyectil | Comparar el original y la versión modificada con condiciones equivalentes | El proyectil se mueve más rápido | Hecho |
 | Velocidad de los balones | Comparar el desplazamiento con el original | Los balones se mueven más rápido | Pendiente |
-| Reposición | Dejar pasar un balón sin dispararle | Al cruzar el borde izquierdo reaparece a la derecha | Pendiente |
-| Continuidad | Dejar salir varios balones y después disparar | La animación y los disparos continúan | Pendiente |
-| Acierto | Alcanzar un balón con el proyectil | Se conserva la detección de impactos | Pendiente |
+| Reposición | Dejar pasar un balón sin dispararle | Al cruzar el borde izquierdo reaparece a la derecha | Hecho |
+| Continuidad | Dejar salir varios balones y después disparar | La animación y los disparos continúan | Hecho |
+| Acierto | Alcanzar un balón con el proyectil | Se conserva la detección de impactos | Hecho |
 | Integración | Ejecutar la versión con ambas contribuciones | Mayor velocidad y reposición funcionan juntas | Pendiente |
 
 ## Problemas encontrados
 
-Pendiente de registrar los problemas reales de esta actividad, si se presentan. Cada registro debe indicar el síntoma, su causa identificada, la corrección y la comprobación realizada.
+No se observaron errores durante las pruebas manuales de reposición,
+continuidad de la partida y disparos.
 
 ## Historial y evidencia
 
